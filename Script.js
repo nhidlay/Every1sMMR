@@ -1,7 +1,15 @@
 // JavaScript source code
 	
-	let searchInput = document.getElementById("mySearch").value;
+	document.getElementById("myButton").addEventListener("click", printFunction);
 
-	console.log(searchInput);
+	function printFunction()
+	{
+		let searchInput = document.getElementById("mySearch").value; 
+		
+		document.getElementById("searchOutput").innerHTML = searchInput;
+	}
+
+	
+	
 
 
