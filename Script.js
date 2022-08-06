@@ -19,7 +19,15 @@
 			para.innerText = summonerName[i];
 			document.body.appendChild(para);
 		}
+
+		
+		
+		const fetchPromise = fetch('https://na.whatismymmr.com/api/v1/summoner?name=rraah');
+
+		console.log(fetchPromise);
 	}
+
+		
 
 	
 	
